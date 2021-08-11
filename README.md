@@ -42,7 +42,7 @@ echo "City: " .$getInformationFromIP->getCurrentCity();
 
 
 ## Print ISP name And Logo
-
+> Some ISPs and logos may not avaible. Add 'AS Code' and ISP Logo URL to getISPLogo() method for proper return
 ```php
 $getInformationFromIP = new getInformationFromIP();
 $getInformationFromIP->ip="198.51.100.0";
