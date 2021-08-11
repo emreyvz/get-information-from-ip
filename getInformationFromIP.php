@@ -15,7 +15,7 @@ class getInformationFromIP
      *@param $currentPlateNumber;
      *@param $currentRegionName;
      *@param $currentCity;
-     *@param $currentCip;
+     *@param $currentZip;
      *@param $currentLat;
      *@param $currentLon;
      *@param $timezone;
@@ -33,7 +33,7 @@ class getInformationFromIP
     public $currentPlateNumber;
     public $currentRegionName;
     public $currentCity;
-    public $currentCip;
+    public $currentZip;
     public $currentLat;
     public $currentLon;
     public $timezone;
