@@ -12,7 +12,7 @@ This PHP library provides to get all possible information from an IP address. Fo
 - currentPlateNumber
 - currentRegionName
 - currentCity
-- currentCip
+- currentZip
 - currentLat
 - currentLon
 - timezone
