@@ -181,23 +181,23 @@ class getInformationFromIP
 
 
     /**
-     * Method for clearing Turkish characters from city name
+     * Method for clearing non-latin characters from string
      *
      * @param $cityName
      * 
      * @return string
      */
 
-    function clearTrCharacter($cityName)
+    function clearNonLatinCharacters($string)
     {
-        $cityName = strtolower($cityName);
-        $cityName = str_replace("ı", "i", $cityName);
-        $cityName = str_replace("ü", "u", $cityName);
-        $cityName = str_replace("ğ", "g", $cityName);
-        $cityName = str_replace("ş", "s", $cityName);
-        $cityName = str_replace("ö", "o", $cityName);
-        $cityName = str_replace("ç", "c", $cityName);
-        return $cityName;
+        $string = strtolower($string);
+        $string = str_replace("ı", "i", $string);
+        $string = str_replace("ü", "u", $string);
+        $string = str_replace("ğ", "g", $string);
+        $string = str_replace("ş", "s", $string);
+        $string = str_replace("ö", "o", $string);
+        $string = str_replace("ç", "c", $string);
+        return $string;
     }
 
 
