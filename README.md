@@ -3,7 +3,7 @@
 # A PHP Library for getting all possible information from an IP Address
 
 This PHP library provides to get all possible information from an IP address. For example it can retrieve user's country, lat-long values, country code, zip code, ISP etc.
-> This library written by Emre Yavuz
+> This library written by Emre Yavuz | github.com/emreyvz
 
 **Accessible Properties**
 
